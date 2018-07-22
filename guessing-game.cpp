@@ -1,7 +1,8 @@
 //File_name: guessing-game.cpp
 //Author:    Stax The Engipreneur
-//Date:      20 July 2018
+//Date:      22 July 2018
 //Details:   Implementation of guessing game algorithm
+//These changes were made from remote watcher to test push feature
 
 #include <iostream>
 using std::cout;
