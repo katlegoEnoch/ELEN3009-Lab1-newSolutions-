@@ -5,6 +5,7 @@
 //Details:   Implementation of guessing game algorithm
 // First Git push
 // these changes were made from the remote watcher
+// just to prove a point, these changes were made from the remote watcher ON A DIFFERENT WORKSTATION
 =======
 //Date:      22 July 2018
 //Details:   Implementation of guessing game algorithm
