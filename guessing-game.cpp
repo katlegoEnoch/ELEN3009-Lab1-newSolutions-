@@ -84,3 +84,7 @@ int main()
     return 0;
     
 }
+
+You have to keep playing with these things, make mistakes, learn
+There's no perfect outcome, we build our way towards it. The more
+we play the more we learn.
