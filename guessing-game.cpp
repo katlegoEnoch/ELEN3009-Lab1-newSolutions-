@@ -25,7 +25,7 @@ int main()
     GameStatus gameStatus;
     
     //keep track of number of guesses
-    int guessCount = 0;
+    int guessCount = 1;
     
     //seed the generator
     srand(time(0));
@@ -51,7 +51,9 @@ int main()
             //set the game status
             gameStatus = CONTINUE;
             //print relevant message
-            cout << "Guess Higher!\n";
+            if(guessCount < 5){
+               cout << "Guess Higher!\n";
+            }
         //user guess is either same, higher or lower
         }//end else if
         //option 3..
@@ -59,12 +61,13 @@ int main()
             //set the gameStatus
             gameStatus = CONTINUE;
             //print relevant message
-            cout << "Guess Lower!\n";
+            if(guessCount < 5)
+                cout << "Guess Lower!\n";
         }//end else
-        
+    
         //increment counter
         guessCount++;
-    }while(gameStatus == CONTINUE || counter < 5);
+    }while(gameStatus == CONTINUE && guessCount <= 5);
     
     //print loose message if relevant
     if(gameStatus != WIN){
