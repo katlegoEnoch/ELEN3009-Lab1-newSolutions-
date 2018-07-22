@@ -1,9 +1,10 @@
 //File_name: guessing-game.cpp
 //Author:    Stax The Engipreneur
 <<<<<<< HEAD
-//Date:      28 July 2018
+//Date:      22 July 2018
 //Details:   Implementation of guessing game algorithm
 // First Git push
+// these changes were made from the remote watcher
 =======
 //Date:      22 July 2018
 //Details:   Implementation of guessing game algorithm
