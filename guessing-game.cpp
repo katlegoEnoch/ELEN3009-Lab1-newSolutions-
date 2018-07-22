@@ -71,9 +71,9 @@ int main()
     
     //print loose message if relevant
     if(gameStatus != WIN){
-        cout << "Player Loses!\n";
+        cout << "Player Losses!\n";
     }
     
-    //indicate that main terminated successfully
     return 0;
+    
 }
